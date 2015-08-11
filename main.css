@@ -19,12 +19,12 @@ header .black-header ul li{
 
 header .white-header ul li{
     list-style: none;
-    display: inline-block;
     padding: 20px;
     font-size: 16px;
     color: #949393;
     font-weight: 500;
     text-align: center;
+    display: inline-block;
 }
 
 header .white-header ul li:active, header .white-header ul li:hover{
@@ -34,7 +34,7 @@ header .white-header ul li:active, header .white-header ul li:hover{
 
 header .white-header ul {
     padding: 20px 0 15px 0;
-    text-align: right;
+    float: right;
 }
 
 .black-header ul {
@@ -63,7 +63,6 @@ header .white-header ul li:last-child {
 
 .white-header {
     background-color: #FFFFFF;
-    min-height: 100px;
 }
 
 .banner {
